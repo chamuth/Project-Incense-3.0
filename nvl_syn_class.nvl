@@ -1,0 +1,6 @@
+inherited nvl_syn_class, from DLC_CER {
+	inherit_locations{
+		initialize(init_f)
+		init_f.clear();
+	}
+}
